@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --main-color:#1B273D;
+    --light-green:#007B80;
+    --purple-color:#3D246C
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+    color: #fff !important;
+}
+img {
+    max-width: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* Start Header Style */
+header {
+    background:var(--main-color);
+}
+.logo {
+    width: 30%;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}.logo a {
+    font-size: 25px;
+}
+
+nav {
+    color: #fff !important;
+}
+.log-in {
+    background: var(--light-green);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 1px solid var(--light-green);
+}
+.sign-up {
+    border: 1px solid #fff;
+    padding: 10px 18px;
+    border-radius: 10px;
+}.header-one {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Suwannaphum", serif;
+}.par-one {
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+}
+header .log-in:hover{
+    background:#13b0b6;
+}.section p {
+    font-size: 15px;
+}.but a{
+    font-size: 18px;
+    margin: 10px;
+}.but .learn{
+    background: #007B80;
+}
+/* End Header Style */
+/* Start Services Style */
+.services {
+    margin-top: 50px ;
+}
+.head {
+    width: 45%;
+}
+.head h3 {
+    font-family: "Suwannaphum", serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--main-color);
+}.head p {
+    color: #65606d;
+}
+.card-item {
+    box-shadow: 0 0 5px #e3e3e3;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin: 0 10px;
+    transition: all 0.4s ease;
+}
+.card-item h5 {
+    margin-bottom: 20px;
+    font-family: "Suwannaphum", serif;
+    font-weight: 600;
+}
+.card-item p {
+    padding: 20px 25px;
+}.services .container .card-item {
+    width: 23% !important;
+
+}
+
+.card-item:hover {
+    background: var(--light-green);
+    color: #fff !important;
+    transform: scale(1.07);
+}
+/* End Services Style */
+/* Start About Us Style */
+.aboutus {
+    margin-top: 100px;
+}
+.about-image img {
+    height: 350px;
+}
+.content-about {
+    margin: 0px 60px;
+}
+.content-about h4 {
+    color: var(--main-color);
+    font-family: "Suwannaphum", serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 125%;
+    margin-bottom: 30px;
+}
+.content-about p {
+    color: #65606d;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 90%;
+    margin: 30px 0;
+}
+/* End About Us Style */
+/* Start Courses Style */
+.course-section {
+    background: var(--main-color);
+    margin-top: 100px;
+}
+.card-btn a {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 10px;
+}.card-person img{
+    width: 41px;
+    height: 40px;
+}
+.card-person p {
+    font-size: 12px !important;
+    
+}.card-person h6 {
+    font-size: 14px !important;
+    
+}.card-title {
+    font-size: 16px ;
+    height: 50px;
+    font-family: "Suwannaphum", serif;
+    font-weight: bold;
+    margin: 0;
+}.card-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+.slider {
+    height:500px;
+    
+}
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background:#fff
+}
+/* Start Feedback Style */
+.feedback{
+    margin-top: 100px;
+}.feedback .col-4 {
+    width: 31% !important;
+}
+/* End Feedback Style */
+/* End Courses Style */
+/* #889096 */
+/* Start Footer Style */
+footer {
+    background:var(--main-color) ;
+    padding: 60px 60px 20px 60px;
+    margin-top: 100px;
+}
+.learn-footer ul {
+    list-style: none;
+    padding: 0;
+}.learn-footer ul li{
+    margin: 20px auto;
+}
+.footer-img {
+    width: 120px;
+    margin-bottom: 20px;
+}.learn-right p{
+    font-family: "Poppins", sans-serif;
+}.right-link a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#40839d ;
+    margin-right: 8px;
+}
+.link{
+    width: 50%;
+    height: 50%;
+    padding-top: 25%;
+    font-size: 20px !important;
+}.fa-twitter {
+    color: var(--main-color);
+}.learn-left h6 {
+    font-size: 22px;
+    font-family: "Suwannaphum", serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}.copy-text {
+    margin-top: 130px;
+    font-family: "Poppins", sans-serif;
+}
+/* End Footer Style */
+/* Responsive */
+@media (max-width: 768px){
+    /* Start Header Style */
+    nav .logo a {
+        font-size: 20px;
+    }.navbar button {
+        width: 46px;
+        height: 30px;
+    }.navbar button span{
+        width: 25px;
+        height: 25px;
+        margin-top: -6px;
+        margin-left: -2px;
+    }
+    header .img{
+        display: none;
+    }header .text {
+        width: 100%;
+        margin: auto 0;
+        text-align: center;
+    }header .text h1{
+        font-size: 35px;
+    }header .text p{
+        width: 100%;
+        font-size: 12px;
+    }header .text .but a{
+        font-size: 12px;
+    }
+    /* End Header Style */
+    /* Start Services Style */
+    .head h3 {
+        font-size: 30px;
+    }.head p {
+        font-size: 15px;
+    }.card-item {
+        margin-bottom: 10px;
+    }.services .container .card-item {
+        width: 100% !important;
+    
+    }
+    /* End Services Style */
+    /* Start About Style */
+    .aboutus .content-about h4 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }.aboutus .content-about p {
+        text-align: center;
+        margin: 0 auto;
+    } 
+    /* End About Style */
+    .feedback .card-item {
+        width: 100% !important;
+    
+    }.feedback .but a {
+        font-size: 12px;
+    }
+    /* Start Footer */
+    .learn-right .footer-img {
+        width: 90px;
+        margin-bottom: 20px;
+    }.learn-right p {
+        font-size: 12px;
+    }.right-link a {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }.link{
+        padding-bottom: 20px;
+        font-size: 20px !important;
+    }.learn-left h6 {
+        font-size: 15px;
+    }.learn-left ul li {
+        font-size: 10px;
+        margin: 10px 0;
+    }.copy-text p {
+        font-size: 12px;
+    }.slider {
+        height:570px;
+        
+    }
+    /* End Footer */
+}@media (min-width: 769px) and (max-width: 1199px){
+    .services .container .card-item {
+        width: 45% !important;
+    }
+    /* Start About Style */
+    .aboutus .content-about h4 {
+        font-size: 32px;
+    }.feedback .col-4 {
+        width: 30% !important;
+    }
+    /* End About Style */
+}
